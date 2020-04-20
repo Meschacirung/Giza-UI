@@ -19,7 +19,7 @@
     <link rel="apple-touch-icon" href="images/apple-touch-152x152.png">
 </head>
 <body>
-    <header class="smooth-scroll">
+    <header class="smooth-scroll fixed-top bg-white border-bottom shadow-card">
         <div class="container" style="margin-bottom:-10px;">
             <div class="row m-flex-center pl-1 pr-1">
                 <div class="col-auto mr-auto">
@@ -30,7 +30,7 @@
                 </div>
             </div>
         </div>
-        <nav id="navbar" class="navbar navbar-expand navbar-light border-bottom shadow-sm">
+        <nav id="navbar" class="navbar navbar-expand navbar-light">
             <div class="container">
                 <div class="col-nav collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
@@ -48,13 +48,13 @@
             </div> <br>
         </nav>
     </header>
-    <div class="bg-light p-3 text-center">
+    <div class="bg-light p-3 text-center" style="margin-top:90px">
         GizaUI 0.0.1
     </div>
-    <div class="border-top" style="background: url('images/bg.png');">
+    <div id="home" class="border-top" style="background: url('images/bg.png');">
         <div class="container" style="margin-top:15%;">
             <div class="col-lg-6 m-auto">
-                <h1 class="text-center first-title">Change any website and application in <span class="font-weight-bold">Dark</span>  or <span class="font-weight-bold">Light</span> mode.</h1>
+                <h1 class="text-center first-title">Change any website and application in <span class="display-4 font-weight-bold">Dark</span>  / <span class="display-4 font-weight-bold">Light</span> mode.</h1>
             <p class="text-center mt-4">Free and Open Source, easy to use, change your website theme.</p>
             <div class="text-center mt-5 pb-5">
                 <a href="#" class="shadow pl-5 pr-5 p-2 btn btn-primary mr-1">Get started</a>
@@ -70,76 +70,78 @@
     </div>
 
     <div class="container mt-5 mb-5 pt-5" id="features">
-        <h3 class="text-center mb-2">Awesome features</h3>
-        <p class="text-center mb-5">What you can do with the library Giza UI</p>
+        <h1 class="text-center mb-2 first-title">Awesome features</h1>
+        <p class="text-center mb-2">What you can do with the library Giza UI</p>
         <div class="row m-flex-center">
-            <div class="col-lg-4">
-                <div class="card border-light shadow-card pt-4 pb-4 p-2 text-center m-flex-center">
-                    <img src="images/feature-2.svg" width="100" alt="" class="img-fluid">
-                    <h5 class="mt-3 mb-3">Change in darkmode</h5>
-                    <p>Consectetur adipisicing elit. Eum, dignissimos pariatur vel laboriosam sapiente sunt delectus dolores eligendi.</p>
+            <div class="col-lg-4 col-md-6 mt-4">
+                <div class="card border-light shadow-card rounded pt-4 pb-4 p-3 m-flex-center">
+                    <div class="row m-flex-center text-left">
+                        <div class="col-2 mr-2">
+                            <div class="m-flex-center rounded-circle p-2" style="width:50px; height:50px; background: #94c1ff41;">
+                                <i class="icon-brightness_high text-primary icon-size"></i>
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <h4 class="mt-3 mb-3">Dark mode.</h4>
+                        </div>
+                    </div>
+                    <p class="text-lg-left text-center mt-2">Eum, dignissimos pariatur vel laboriosam sapiente sunt delectus dolores eligendi.</p>
                 </div>
             </div>
-            <div class="col-lg-4 mt-4">
-                <div class="card border-light shadow-card pt-4 pb-4 p-2 text-center m-flex-center">
-                    <img src="images/feature-1.svg" width="100" alt="" class="img-fluid">
-                    <h5 class="mt-3 mb-3">Change in lightmode </h5>
-                    <p>Consectetur adipisicing elit. Eum, dignissimos pariatur vel laboriosam sapiente sunt delectus dolores eligendi.</p>
+            <div class="col-lg-4 col-md-6 mt-4">
+                <div class="card border-light shadow-card rounded pt-4 pb-4 p-3 m-flex-center">
+                    <div class="row m-flex-center">
+                        <div class="col-2 mr-2">
+                            <div class="m-flex-center rounded-circle p-2" style="width:50px; height:50px; background: #ff949441;">
+                                <i class="icon-brightness_low text-danger icon-size"></i>
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <h4 class="mt-3 mb-3">Light mode.</h4>
+                        </div>
+                    </div>
+                    <p class="text-lg-left text-center mt-2">Eum, dignissimos pariatur vel laboriosam sapiente sunt delectus dolores eligendi.</p>
                 </div>
             </div>
-            <div class="col-lg-4 mt-4">
-                <div class="card border-light shadow-card pt-4 pb-4 p-2 text-center m-flex-center">
-                    <img src="images/feature-3.svg" width="100" alt="" class="img-fluid">
-                    <h5 class="mt-3 mb-3">Light / Dark mode system </h5>
-                    <p>Consectetur adipisicing elit. Eum, dignissimos pariatur vel laboriosam sapiente sunt delectus dolores eligendi.</p>
+            <div class="col-lg-4 col-md-6 mt-4">
+                <div class="card border-light shadow-card rounded pt-4 pb-4 p-3 m-flex-center">
+                    <div class="row m-flex-center">
+                        <div class="col-2">
+                            <div class="m-flex-center rounded-circle p-2" style="width:50px; height:50px; background: #94ff9d41;">
+                                <i class="icon-brightness_auto text-success icon-size"></i>
+                            </div>
+                        </div>
+                        <div class="col-10">
+                            <h5 class="mt-3 mb-3">Light / Dart mode system</h5>
+                        </div>
+                    </div>
+                    <p class="text-lg-left text-center">Eum, dignissimos pariatur vel laboriosam sapiente sunt delectus dolores eligendi.</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid bg-light" id="examples" style="padding:60px 0px; margin-top:100px;">
+    <div class="container-fluid bg-light" id="examples" style="padding:80px 0px; margin-top:70px;">
         <div class="container">
-            <div class="row m-flex-center">
-                <div class="col-lg-4 mb-5 text-lg-left text-center">
-                    <div class="col-auto order-lg-1 order-1">
-                        <h3>Who is using Giza UI ?</h3>
-                        <p class="mt-3">Trusted by 290+ developers, startups and entreprises.</p>
-                    </div>
-                    <div class="col-auto order-lg-2 order-3">
-                        <h6 class="mb-4">Be the next to try the darkmode in your web application</h6>
-                        <a href="" class="btn btn-primary shadow pl-5 pr-5 mr-3">Download</a>
-                        <a href="" class="btn bg-white shadow-lg"><i class="icon-github"></i></a>
-                    </div>
+            <div class="text-center">
+                <h3>Who is using it ?</h3>
+                <p class="mt-3">Trusted by 290+ developers, startups and entreprises.</p>
+            </div>
+            <div class="row m-flex-center mt-5">
+                <div class="col-lg-5 col-7 item-2" style="margin-right:-280px;">
+                    <img src="images/att.jpg" alt="" class="img-fluid rounded shadow-lg">
                 </div>
-                <div class="d-none order-lg-3 order-2 col-lg-8">
-                    <div class="row m-flex-center">
-                        <div class="col-lg-6 mb-4">
-                            <div class="">
-                                <img src="images/5.png" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="col-lg-4 mb-3">
-                            <div class="">
-                                <img src="images/3.png" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="col-lg-2">
-                            <div class="">
-                                <img src="images/1.png" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="">
-                                <img src="images/8.png" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="">
-                                <img src="images/2.jpg" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-lg-6 col-9 m-auto" style="z-index:2;">
+                    <img src="images/8.png" class="rounded img-fluid shadow-lg" alt="">
                 </div>
+                <div class="col-lg-5 col-7 item-2" style="margin-left:-280px; z-index:1;">
+                    <img src="images/realtor.jpg" alt="" class="img-fluid rounded shadow-lg">
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <h6 class="mb-4">Be the next to try the darkmode in your web application</h6>
+                <a href="" class="btn btn-primary shadow pl-5 pr-5 mr-3">Download</a>
+                <a href="" class="btn bg-white shadow-lg"><i class="icon-github"></i></a>
             </div>
         </div>
     </div>
