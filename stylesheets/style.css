@@ -1,16 +1,16 @@
 body{
     font-family:'Montserrat';
+    overflow-x: hidden;
 }
 a :hover{
     text-decoration: none !important;
 }
+.display-4{
+    font-size:35px;
+}
 @media (max-width:576px){
     .first-title{
-        font-size:28px;
-        line-height:39px;
-    }
-    .display-4{
-        font-size:35px;
+        font-size:20px;
     }
 }
 
